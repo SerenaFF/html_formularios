@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea HTML_Formularios de Serena Fernandez</title>
+</head>
+<body>
+    <form>
+        <input type="radio" name="idioma" value="idiomaingles"> Inglés
+        <input type="radio" name="idioma" value="idiomaaleman"> Aleman
+        <input type="radio" name="idioma" value="idiomafrances"> Frances
+        <br>
+        <input type="text" name="nombre" placeholder="Nombre"/>
+        <input type="text" name="apellido/s" placeholder="Apellido/s"/>
+        <br>
+        <select name="conector">
+            <option value="" disabled selected>Conector</option>
+            <option value="usb">USB</option>
+            <option value="paralelo">Paralelo</option> 
+            <option value="ps2">PS2</option>
+        </select>
+        <br>
+        <select name="Sexo" multiple>
+            <optgroup label="Sexo">
+                <option value="sexohombre" label="Hombre"> </option>
+                <option value="sexomujer" label="Mujer"> </option>
+            </optgroup>
+        </select>
+        <br>
+        <input type="checkbox" name="sexo" value="sexohombre"/> Hombre
+        <input type="checkbox" name="sexo" value="sexomujer"/> Mujer
+        <br>
+        <input type="date" name="fecha" min="2018-03-25" max="2022-12-31" step="2"/>
+    
+    </form> 
+    <a href="./form2.html">Formulario Siguiente >></a>
+</html>

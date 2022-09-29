@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea HTML_Formularios de Serena Fernandez</title>
+</head>
+<body>
+    <a href="./index.html"> << Formulario Anterior</a>
+    <form>
+        <input type="date" name="fecha" min="2018-03-25" max="2022-12-31" step="2" />
+        <br>
+        <input type="file" name="archivo">
+        <br>
+        <input type="radio" name="procesador" value="procesadoramd"> AMD
+        <input type="radio" name="procesador" value="procesadorintel_i5"> Intel i5
+        <input type="radio" name="procesador" value="procesadorintel_i7"> V
+        <br>
+        <label>Nombre:
+            <input type="text" name="nombre" placeholder="Nombre"/>
+        </label>
+        <label>Apellido/s:
+            <input type="text" name="apellido/s" placeholder="Apellido/s"/>
+        </label>
+        <label>Dirección:
+            <input type="text" name="direccion" placeholder="Dirección"/>
+        </label>
+        <br>
+        <fieldset>Puedes elegir el color que más te guste
+            <input type="color" name="color"/>
+        </fieldset>
+        <textarea name="texto" cols="59" rows="6" placeholder="Utilice este cuadro para escribir"></textarea>
+        <br>
+        <input type="date" name="fecha" min="2018-03-25" max="2022-12-31" step="2"/>
+        <br>
+        <select name="idioma" multiple>
+            <optgroup label="Idioma">
+                <option value="" disabled selected>Idioma</option>
+                <option value="ingles">Inglés</option>
+                <option value="aleman"> Aleman </option>
+                <option value="frances"> Frances </option>
+            </optgroup>
+        </select>
+        <br>
+        <input type="time" name="hora" min="00:00" max="25:00" step="3600"/>
+        <br>
+        <input type="file" name="archivo"/>
+        <br>
+        <input type="checkbox" name="sexo" value="sexohombre"/>Hombre
+        <input type="checkbox" name="sexo" value="sexomujer"/>Mujer
+    </form>
+</body>
+</html>
